@@ -1,0 +1,28 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+.card {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.category-input {
+    font-weight: bold;
+}
+
+#expense-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+#expense-list li:last-child {
+    border-bottom: none;
+}
+
+.category-output {
+    font-weight: bold;
+}
